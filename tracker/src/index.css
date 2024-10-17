@@ -1,0 +1,185 @@
+/* General Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #e0f7fa;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Container Styling */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  /* Auth Form Styling */
+  .authForm {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .authForm input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .authForm button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .authForm button:hover {
+    background-color: #1565c0;
+  }
+  
+  /* Form Styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .form input, .form select, .form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Transaction List Styling */
+  .transactionList {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transactionList h2 {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Message when no transactions */
+  .transactionList p {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Transaction Item Row Styling */
+.transactionItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .transactionItem:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .transactionDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .transactionDetails p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .transactionDetails strong {
+    color: #1976d2;
+  }
+  
+  .transactionAmount {
+    font-weight: bold;
+    font-size: 18px;
+    color: #388e3c;
+  }
+  
+  /* Button Styling */
+  .transactionItem button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .transactionItem button:hover {
+    background-color: #d32f2f;
+  }
+  
+  
+  .deleteButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .deleteButton:hover {
+    background-color: #d32f2f;
+  }
+  
